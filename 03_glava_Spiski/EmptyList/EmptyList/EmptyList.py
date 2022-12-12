@@ -16,3 +16,8 @@ print(motorcycles)
 popped_motorcycles = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycles)
+
+#удаление по значению
+print('удаление по значению')
+motorcycles.remove('harley')
+print(motorcycles)
